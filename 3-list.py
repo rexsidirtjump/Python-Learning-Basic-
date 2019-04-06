@@ -21,7 +21,7 @@ Data[4] = 875
 
 #merubah contet dari list
 
-a = Data
+a = Data[:]
 a[4] = 75
 
 print(a)
