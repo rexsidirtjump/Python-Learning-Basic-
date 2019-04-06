@@ -17,11 +17,11 @@ Data3 = Data + Data2
 #merubah contet dari list
 
 print(Data)
-Data[4] = 875
+Data[4] = 8756
 
 #merubah contet dari list
 
-a = Data
+a = Data[:]
 a[4] = 75
 
 print(a)
